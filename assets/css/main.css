@@ -176,7 +176,7 @@
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 50px;
-    font-family: "Vollkorn", serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
   }
@@ -205,7 +205,7 @@
     color: #f0fff0;
     text-decoration: none;
     overflow: hidden;
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 100;
   }
   
@@ -280,7 +280,7 @@
   }
   
   .header_word-container--word {
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 9vw;
     letter-spacing: 2px;
     font-weight: 100;
@@ -354,7 +354,7 @@
   }
   
   .section_title {
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 7vw;
     font-weight: 900;
     font-style: italic;
@@ -371,10 +371,11 @@
     width: 100%;
     max-width: 500px !important;
     transition: 1s ease all;
+    border-radius: 10px;
   }
   
   .about_container-words {
-    padding: 0 20px;
+    padding: 0 10px;
     line-height: 3em;
     text-align: left;
   }
@@ -428,20 +429,20 @@
   
   
   .projects_title-one {
-    font-family: "Unica One", cursive;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .projects_title-two {
-    font-family: "Mukta", sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .projects_title-three {
-    font-family: "Alfa Slab One", cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 35px !important;
   }
   
   .projects_title-four {
-    font-family: "Montserrat Subrayada", sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .projects_desc-button_container {
@@ -587,7 +588,7 @@
   
   .info-dosxan {
     font-size: 60px;
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 100;
     text-align: center;
   }
@@ -616,7 +617,7 @@
   }
   
   .info-lora {
-    font-family: "Montserrat Subrayada", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 65px;
     bottom: 13%;
     position: relative;
@@ -632,7 +633,7 @@
     letter-spacing: 2.6px;
     text-align: center;
     font-size: 2.3em;
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     
   }
   
@@ -645,14 +646,14 @@
   .info-middle h1 {
     text-align: center;
     font-size: 2.3em;
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 30px 15px;
   }
   
   .info-middle h2 {
     text-align: left;
     font-size: 1.5em;
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #383838;
     padding:0 25px;
   }
@@ -677,14 +678,14 @@
   .info-bottom h1 {
     text-align: center;
     font-size: 2.3em;
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding-bottom: 30px;
   }
   
   .info-bottom h2 {
     text-align: left;
     font-size: 1.5em;
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 0 30px 75px 30px;
     color: #383838;
   }
@@ -715,7 +716,7 @@
     text-decoration: underline;
     color: #111111;
     font-size: 1.6em;
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 5px;
   }
   
@@ -750,7 +751,7 @@
   }
   
   .contact_me {
-    font-family: "lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 7vw;
     letter-spacing: 2px;
     font-weight: 100;
@@ -868,7 +869,7 @@
       letter-spacing: 2.6px;
       text-align: center;
       font-size: 2.3em;
-      font-family: "lato", sans-serif;
+      font-family: "Open Sans", sans-serif;
   
     }
     .info-top{
