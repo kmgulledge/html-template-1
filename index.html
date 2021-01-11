@@ -73,6 +73,167 @@
     <!--body of website-->
     <body>
 
+        <!--navigation bar-->
+        <nav id="nav" role="navigation">
+            <div class="nav_logo">
+            <a href="index.html"><i class="fas fa-code nav_logo-i"></i></a>
+            </div>
+            <div class="nav_btn" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+            </div>
+            <div class="nav_overlay" id="nav_overlay">
+            <div class="nav_overlay-container">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Work</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <!--header-->
+        <header id="header_tag" class="tag">
+            <div class="header_word-container ghost">
+            <div class="header_word-container--word">Hello,</div>
+            <div class="header_word-container--word">my name is Kevin Gulledge.</div>
+            <div class="header_word-container--word">I am <br><span class="txt-rotate" data-period="2000"
+                data-rotate='[ "a web developer", "a software developer", "a regular guy"]'></span></div>
+            <div class="header_word-container--word"> living in Charlotte, NC.</div>
+            </div>
+            <div class="scroll_down-container" onclick="smoothScroll(document.getElementById('second'))">
+            <p class="scroll_down-desc">scroll down</p>
+            <i class="scroll_down-arrow fas fa-angle-down header_arrow--down"></i>
+            </div>
+            <div id="second"></div>
+        </header>
+
+        <!--about-->
+        <section id="about" class="tag">
+            <div class="section_banner section_banner-about">
+            <div>
+                <span class="line line_b"></span>
+                <span class="section_title ">about</span>
+                <span class="line line_b"></span>
+            </div>
+            </div>
+            <div class="about_container" data-aos="fade-up" data-aos-delay="100">
+            <div>
+                <img class="about_container-img" src="">
+            </div>
+            <div>
+                <p class="about_container-words">&nbsp;&nbsp;&nbsp;&nbsp;Hello, my name is Kevin.
+            </div>
+        </section>
+
+        <!--projects-->
+        <section id="projects">
+            <div class="section_banner">
+            <span class="line line_b"></span>
+            <span class="section_title section_title-long">previous work</span>
+            <span class="line line_b"></span>
+            </div>
+            <div class="large_projects_container">
+            <div class="projects_container projects_container-dosxan" data-aos-delay="100" data-aos="fade-up">
+                <div class="projects_title">
+                <h3 class="projects_title-one"></h3>
+                </div>
+                <div class="projects_desc">
+                <img src="">
+                <p class="projects_desc-tech--dark">technology used: </p>
+                <div class="projects_desc-button_container">
+                    <a href=""><button
+                        class="btn draw-border draw-border--one dosxan-btn first-btn">visit website</button></a>
+                    <a href=""><button class="btn draw-border draw-border--one dosxan-btn first-btn">more
+                        info</button></a>
+
+                </div>
+
+                </div>
+
+            </div>
+            <div class="projects_container projects_container-hometown" data-aos-delay="100" data-aos="fade-up">
+                <div class="projects_title">
+                <h3><img src="" alt="" class=""></h3>
+                </div>
+                <div class="projects_desc">
+                <img src="">
+                <p class="projects_desc-tech--dark">technology used: </p>
+                <div class="projects_desc-button_container">
+                    <a href=""><button
+                        class="btn draw-border draw-border--one dosxan-btn third-btn">visit website</button></a>
+                    <a href=""><button class="btn draw-border draw-border--one dosxan-btn third-btn">more
+                        info</button></a>
+
+                </div>
+
+                </div>
+            </div>
+            <div class="projects_container projects_container-lora " data-aos-delay="100" data-aos="fade-up">
+                <div class="projects_title">
+                <h3 class="projects_title-four"></h3>
+                </div>
+                <div class="projects_desc">
+                <img src="">
+                <p class="projects_desc-tech--dark">technology used: </p>
+                <div class="projects_desc-button_container">
+                    <a href=""><button class="btn draw-border draw-border--one dosxan-btn fourth-btn">visit
+                        website</button></a>
+                    <a href=""><button class="btn draw-border draw-border--one dosxan-btn fourth-btn">more
+                        info</button></a>
+
+                </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <!--contact-->
+        <footer>
+            <section id="contact" class="tag">
+            <div class="section_banner section_banner-contact">
+                <span class="line"></span>
+                <span class="section_title">contact</span>
+                <span class="line"></span>
+            </div>
+            <div class="contact_container">
+                <div class="contact_me">
+                <div class="contact_top">Let's work together!</div>
+                <br>
+                <div class="contact_bottom">Find me below</div>
+                <div class="social">
+                    <a class="social_link" target="_blank" href=""><i
+                        data-aos-delay="100" data-aos="fade-down" class="fab fa-codepen"></i></a>
+                    <a class="social_link" target="_blank" href=""><i data-aos-delay="200"
+                        data-aos="fade-down" class="fab fa-github"></i></a>
+                    <a class="social_link" target="_blank"
+                    href=""><i data-aos-delay="300"
+                        data-aos="fade-down" class="fab fa-linkedin"></i></a>
+                    <a class="social_link" target="_blank" href=""> <a class="social_link" target="_blank"
+                        href=""><i data-aos-delay="400" data-aos="fade-down"
+                        class="fab fa-instagram"></i></a></i></a>
+                    <a class="social_link" target="_blank" href=""> <a class="social_link" target="_blank"
+                        href=""><i data-aos-delay="500"
+                        data-aos="fade-down" class="fab fa-youtube"></i></a></i></a>
+                </div>
+                <div class="contact_bottom">or email me.</div>
+                <a href="mailto:the1kevthewebdev@gmail.com" class='email'>send me an email</a>
+                </div>
+            </div>
+            </section>
+        </footer>
+
+        <!-- jQuery library -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a481133b31.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
     </body>
 
 </html>
