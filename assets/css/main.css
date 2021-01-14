@@ -126,6 +126,7 @@
   /** Opened Navigation Menu  **/
   .nav_overlay {
     background-color: #1E252B;
+    color: #F3F4F6;
     position: absolute;
     top: 0;
     left: 0;
@@ -327,7 +328,7 @@
   }
   
   /** About Info  **/
-  #about {
+  #section-about {
     background-color: #F3F4F6;
     padding-top: 20px;
     padding-bottom: 150px;
@@ -382,8 +383,8 @@
   }
   
   /** Projects Info  **/ 
-  #projects {
-    background-color: #f0f0f0;
+  #prosection-projects {
+    background-color: #F3F4F6;
     padding-top: 20px;
     padding-bottom: 50px;
   }
@@ -727,9 +728,9 @@
   }
   
   /** Contact Info  **/  
-  #contact {
-    background-color: #111111;
-    color: #f0fff0;
+  #section-contact {
+    background-color: #1E252B;
+    color: #F3F4F6;
     height: 100vh;
   }
   
