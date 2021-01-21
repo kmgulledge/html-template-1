@@ -14,7 +14,7 @@
   
   .nav_logo {
     position: relative;
-    width: 70px;
+    width: 50px;
     top: 25%;
     right: -5%;
     height: 27px;
@@ -32,7 +32,7 @@
 
   .nav_logo-img {
     width: 100%;
-    max-width: 600px !important;
+    max-width: 500px !important;
     transition: 1s ease all;
     border-radius: 50px;
   }
