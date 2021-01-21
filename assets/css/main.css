@@ -14,7 +14,7 @@
   
   .nav_logo {
     position: relative;
-    width: 50px;
+    width: 70px;
     top: 25%;
     right: -5%;
     height: 27px;
@@ -28,6 +28,13 @@
     font-size: 2.2em;
     animation-duration: 1s;
     animation-name: nav-appear;
+  }
+
+  .nav_logo-img {
+    width: 100%;
+    max-width: 600px !important;
+    transition: 1s ease all;
+    border-radius: 50px;
   }
   
   @keyframes nav-appear {
