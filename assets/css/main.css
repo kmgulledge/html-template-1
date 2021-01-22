@@ -345,7 +345,6 @@
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
-    margin: 10vh 0;
   }
   
   .line {
@@ -354,7 +353,7 @@
     position: relative;
     top: -12px;
     display: inline-block;
-    background-color: #f0fff0;
+    background-color: #F3F4F6;
   }
   
   .line_b {
@@ -390,7 +389,7 @@
   }
   
   /** Projects Info  **/ 
-  #prosection-projects {
+  #section-projects {
     background-color: #F3F4F6;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -504,8 +503,8 @@
   }
   
   .draw-border {
-    box-shadow: inset 0 0 0 4px #580000;
-    color: #580000;
+    box-shadow: inset 0 0 0 4px #EA7125;
+    color: #EA7125;
     background-color: rgba(88, 0, 0, 0.2);
     transition: color 0.25s 0.0833333333s;
     position: relative;
@@ -587,7 +586,7 @@
   }
   
   #info {
-    background-color: #f8f8ff;
+    background-color: #F3F4F6;
   }
   
   .info {
@@ -730,7 +729,7 @@
   }
   
   .info_btn-container a:hover {
-    color: #580000;
+    color: #EA7125;
     transition: 0.2s ease all;
   }
   
@@ -776,16 +775,24 @@
     width: 80%;
   }
   
+  .contact_me p {
+    width: 100%;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-align: center;
+  }
+
   .email {
     text-decoration: none;
-    background-color: rgba(88, 0, 0, 0.3);
+    background-color: rgba(234, 113, 37, 0.3);
     padding: 10px;
     margin: 40px 0;
     color: #f0fff0;
     -webkit-transition: 0.5s ease all;
     transition: 0.5s ease all;
     max-width: 10em;
-    border: 5px solid #580000;
+    border: 5px solid #EA7125;
   }
   
   .email:focus {
@@ -793,7 +800,7 @@
   }
   
   .email:hover {
-    background-color: #580000;
+    background-color: #EA7125;
   }
   
   .social {
@@ -813,7 +820,7 @@
   }
   
   .social i:hover {
-    color: #580000;
+    color: #EA7125;
     -webkit-transition: 0.4s ease all;
     transition: 0.4s ease all;
   }
